@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containe {
+    @apply p-8
+}
+.item:not(:last-child) {
+    border-right: 1px solid #ccc; /* This adds a line below each item except the last one */
+    padding-left: 10px; /* This adds some space below the text and the line */
+    padding-right: 10px; /* This adds some space below the text and the line */
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-buttom, 16rem);
+    left: 0;
+    width: 100%;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2) !important;
+  position: relative;
+  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow-anchor: none;
+  border-radius: 0;
+}
+.roundedd{
+  border-radius: 10px 0 0 10px ;
+}
+.roundede{
+  border-radius: 0 10px 10px 0px ;
+}
+html {
+  scroll-behavior: smooth;
+}
