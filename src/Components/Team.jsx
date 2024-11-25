@@ -37,23 +37,7 @@ const Team = () => {
                 
                 
                 pagination={{ clickable: true }}>
-                <SwiperSlide>
-                    <div className="w-[300px] lg:w-[450px] flex md:flex-col justify-center gap-8 items-center rounded p-4">
-                        <img src="/img/team/doctor-1.png" alt="team member" width={200} />
-                        <div className="">
-                            <h3 className="font-medium text-lg">Dr.Leaslie Taylor</h3>
-                            <p className='text-slate-500 mb-2 text-sm' >PEDIATRICAN</p>
-                            <p className='text-slate-500 max-w-[150px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            <div className="mt-4 flex gap-6 text-cyan-600 ">
-                                <FaYoutube size={20} className='hover:text-red-600 hover:transition-all ' />
-                                <FaFacebook size={20} className='hover:text-blue-600 hover:transition-all ' />
-                                <FaInstagram size={20} className='hover:text-pink-600 hover:transition-all ' />
-                                <FaTwitter size={20} className='hover:text-blue-600 hover:transition-all ' />
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                    <SwiperSlide>
                     <div className="w-[300px] lg:w-[450px] flex justify-center gap-6 items-center rounded p-4">
                         <img src="/img/team/doctor-2.png" alt="team member" width={200} />
                         <div className="">
@@ -71,6 +55,7 @@ const Team = () => {
 
                     </div>
                 </SwiperSlide>
+                
                 <SwiperSlide>
                     <div className="w-[300px] lg:w-[450px] flex justify-center gap-6 items-center rounded p-4">
                         <img src="/img/team/doctor-1.png" alt="team member" width={200} />
@@ -107,6 +92,25 @@ const Team = () => {
 
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-[300px] lg:w-[450px] flex justify-center gap-6 items-center rounded p-4">
+                        <img src="/img/team/doctor-1.png" alt="team member" width={200} />
+                        <div className="">
+                            <h3 className="font-medium text-lg">Dr.Leaslie Taylor</h3>
+                            <p className='text-slate-500 mb-2 text-sm' >PEDIATRICAN</p>
+                            <p className='text-slate-500 max-w-[150px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <div className="mt-4 flex gap-6 text-cyan-600">
+                                <FaYoutube size={20} className='hover:text-red-600 hover:transition-all ' />
+                                <FaFacebook size={20} className='hover:text-blue-600 hover:transition-all ' />
+                                <FaInstagram size={20} className='hover:text-pink-600 hover:transition-all ' />
+                                <FaTwitter size={20} className='hover:text-blue-600 hover:transition-all ' />
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </SwiperSlide>
+                
             </Swiper>
         </div>
     </section>

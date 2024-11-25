@@ -19,7 +19,7 @@ const Navbar = () => {
     <>
       <header className=' hidden lg:block px-8 pt-8 pb-3 rounded-b-3xl w-[50rem] mx-auto bg-white shadow-2xl sticky z-10 ' >
           <div className="flex justify-between items-center">
-              <img src="/img/header/logo.svg" width={150} className="" />
+              <img src="/img/header/logo.svg" width={150} className="cursor-pointer" />
               <div className="flex gap-6">
                   <div className="flex gap-1 items-center">
                   <FaMapMarkerAlt className="text-teal-200"/>

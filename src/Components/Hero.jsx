@@ -12,7 +12,9 @@ const Hero = () => {
                 <div className="mt-2">
                     <h1 className="text-[50px] font-semibold leading-[60px] max-w-[350px] " >We care about your health</h1>
                     <p className="text-slate-500 mt-3 max-w-[370px]" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet amet id sed architecto qui eaque, unde quos veniam totam necessitatibus placeat. Eaque ab aliquam ducimus!</p>
-                    <button className="capitalize text-white px-5 py-2 text-center bg-teal-500 rounded-lg mt-4 hover:bg-teal-400 transition-all " >Contact us</button>
+                    <a href="#Contact">
+                        <button className="capitalize text-white px-5 py-2 text-center bg-teal-500 rounded-lg mt-4 hover:bg-teal-400 transition-all " >Contact us</button>
+                    </a>
                 </div>
             </div>
             <div className="mt-4 lg:mt-0">
